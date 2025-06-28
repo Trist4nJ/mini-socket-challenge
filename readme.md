@@ -1,15 +1,15 @@
-# Mini-Projet Socket : Challenge ROT13
+# Mini Socket Project: ROT13 Challenge
 
-Un petit projet Python basé sur les sockets pour créer un challenge réseau.
+A small Python project using sockets to create a simple network challenge.
 
-- Le **serveur** envoie une chaîne chiffrée avec **ROT13**.
-- Le **client** doit la déchiffrer et renvoyer la réponse en **moins de 2 secondes**.
-- Si la réponse est correcte, le serveur renvoie un **FLAG**.
+- The **server** sends a string encrypted with **ROT13**.
+- The **client** must decrypt it and send the original string back **within 2 seconds**.
+- If the response is correct, the server returns a **FLAG**.
 
-Ce challenge est inspiré d’un exercice disponible sur **Root-Me**.  
-J’ai voulu le **reproduire côté serveur** pour mieux comprendre comment il fonctionne en interne.
+This challenge is inspired by an exercise available on **Root-Me**.  
+I wanted to **rebuild it on the server side** to better understand how it works internally.
 
-## Fichiers
+## Files
 
-- `server.py` : code du serveur (écoute, chiffre, vérifie)
-- `client.py` : code du client (reçoit, déchiffre, répond)
+- `server.py`: server code (listens, encrypts, verifies)
+- `client.py`: client code (receives, decrypts, responds)
