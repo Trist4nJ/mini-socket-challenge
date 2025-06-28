@@ -6,7 +6,7 @@ Un petit projet Python basé sur les sockets pour créer un challenge réseau.
 - Le **client** doit la déchiffrer et renvoyer la réponse en **moins de 2 secondes**.
 - Si la réponse est correcte, le serveur renvoie un **FLAG**.
 
-💡 Ce challenge est inspiré d’un exercice disponible sur **Root-Me**.  
+Ce challenge est inspiré d’un exercice disponible sur **Root-Me**.  
 J’ai voulu le **reproduire côté serveur** pour mieux comprendre comment il fonctionne en interne.
 
 ## Fichiers
